@@ -1,0 +1,17 @@
+SENTINEL — NETLIFY DEPLOYMENT
+
+This source package preserves the edits in the uploaded project and includes the TypeScript build fixes.
+
+OPTION A — Netlify from GitHub (recommended for this source package)
+1. Upload this folder to a GitHub repository.
+2. In Netlify choose Add new site > Import an existing project.
+3. Select the repository.
+4. Netlify will read netlify.toml automatically.
+5. Build command: npm run build
+6. Publish directory: dist
+
+OPTION B — Build locally, then drag/drop
+1. Open CMD in this folder.
+2. npm install
+3. npm run build
+4. Drag the generated dist folder to https://app.netlify.com/drop
